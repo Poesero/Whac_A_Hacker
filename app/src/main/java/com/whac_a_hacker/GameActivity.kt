@@ -16,7 +16,8 @@ class GameActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_game)
     }
-    //Recorre las 4 posiciones a medida que escribe lo el numero del jugador
+
+    //Goes from first to forth position while writing down the player's number
     fun btnClick(view: View) {
         val btnSelected = view as Button
         Log.i("ButtonClicked", "Button ${btnSelected.text} was pressed")
@@ -28,8 +29,7 @@ class GameActivity : AppCompatActivity() {
 
     }
 
-
-    //Remplaza el valor de la posición actual con el valor del numero presionado
+    //Replace the value of the current position with the value of the number pressed
     private fun insertPlayersNumber(currentCell:ImageView, btnSelected:Button){
             when(btnSelected.id) {
                 R.id.btn_1 -> currentCell.setImageResource(R.drawable.cell_1)

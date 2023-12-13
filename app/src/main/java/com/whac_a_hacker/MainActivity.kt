@@ -7,6 +7,7 @@ import android.util.Log
 import android.widget.Button
 
 class MainActivity : AppCompatActivity() {
+    // This is going to work as a main menu
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
