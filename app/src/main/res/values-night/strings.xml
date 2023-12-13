@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="playButton">playButton</string>
+    <string name="title_of_the_game_whac_a_hacker">Title of the game Whac-A-Hacker</string>
+</resources>

@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Whac-A-Hacker</string>
+    <string name="playButton">START</string>
+    <string name="title_of_the_game_whac_a_hacker">Title of the game Whac-A-Hacker</string>
+    <string name="dial_phone_display">dial phone display</string>
+</resources>
